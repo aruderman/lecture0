@@ -2,28 +2,38 @@
 <html>
     <head>
         <title>The wheel of Time</title>
+        <meta name="viewport" content="view=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
+
     </head>
     <body>
-    	<h2>The Wheel of Time, a brief introduction</h2>	
-    	<p id='intro'>
+    	<nav class="navbar navbar-light bg-light">
+		  <a class="navbar-brand" href="#">
+		    <img src="figs/background.jpeg" width="30" height="30" alt="">
+		  </a>
+		</nav>
+    	<h2 id='mt'></h2>	
+    	<div id='intro'>
         	The Wheel of Time is a series of high fantasy novels written by American author James Oliver Rigney Jr., under his pen name of Robert Jordan. Originally planned as a six-book series, The Wheel of Time spanned fourteen volumes, in addition to a prequel novel and two companion books. Jordan began writing the first volume, The Eye of the World, in 1984, and it was published in January 1990.
-        </p>
-        <p>	
-        	The series is set in an unnamed world that, due to the cyclical nature of time as depicted in the series, is simultaneously the distant past and the distant future Earth. The series depicts fictional, ancient mythology that references modern Earth history, while events in the series prefigure real Earth myths. The series takes place about three thousand years after "The Breaking of the World", a global cataclysm that ended the "Age of Legends", a highly advanced era. Throughout most of the series, the world's technology and institutions are comparable to those of the Renaissance, but with greater equality for women; some cultures are matriarchal. Events later in the series prompt advances similar to the Industrial Revolution. 
-        </p>
-        <div id="demobox">
-        	The three main characters, known as "Ta'veren", are:
-        	<ul style="list-style-type:square;"> 
-        		<li><img src="figs/rand.jpeg" width="30%">
-        		Rand al'Thor</li>
-        		<li><img src="figs/mat.jpeg" width="34.5%">
-        		Matrim Cauthon</li>
-        		<li><img src="figs/perrin.jpeg" width="35.25%">
-        		Perrin Aybara</li>
-        	</ul>
         </div>
-        <p>
+        <div class="container-fluid">	
+        	The series is set in an unnamed world that, due to the cyclical nature of time as depicted in the series, is simultaneously the distant past and the distant future Earth. The series depicts fictional, ancient mythology that references modern Earth history, while events in the series prefigure real Earth myths. The series takes place about three thousand years after "The Breaking of the World", a global cataclysm that ended the "Age of Legends", a highly advanced era. Throughout most of the series, the world's technology and institutions are comparable to those of the Renaissance, but with greater equality for women; some cultures are matriarchal. Events later in the series prompt advances similar to the Industrial Revolution. 
+        </div>
+        <div class="container-fluid">
+	        <div id="demobox">
+	        	The three main characters, known as "Ta'veren", are:
+	        	<ul style="list-style-type:square;"> 
+	        		<li><img src="figs/rand.jpeg" width="30%">
+	        		Rand al'Thor</li>
+	        		<li><img src="figs/mat.jpeg" width="34.5%">
+	        		Matrim Cauthon</li>
+	        		<li><img src="figs/perrin.jpeg" width="35.25%">
+	        		Perrin Aybara</li>
+	        	</ul>
+	        </div>
+        </div>
+		<div>
         	The first four books of the serie are:
  			<table style="width:50%">
   				<tr>
@@ -52,6 +62,19 @@
     				<td>15 September 1992</td>
   				</tr>
 			</table> 
-		</p>
+		</div>
+
+		<form>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+		  </div>
+		  <div class="form-group form-check">
+		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
     </body>
 </html>

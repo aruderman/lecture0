@@ -1,3 +1,6 @@
+
+body {background-color: #d6c1d5}
+
 h2 {color:#0078bf;text-align: center; font-family: Arial;}
 	table, th, td {
 	border: 1px solid black;
@@ -5,11 +8,31 @@ h2 {color:#0078bf;text-align: center; font-family: Arial;}
 	text-align: center;
 	padding: 5px;
 }	
+
 th {background-color: lightgrey;}
 p { text-align: justify; margin: 10px; padding: 5px;
 }
-#intro {background-color: lightgrey;}
-a:hoover {text-decoration-color: : green;}
+
+#c1 {
+	background-color: lightgrey;
+}
+
+#intro {
+	background-color: lightgrey;
+	border-radius: 10px ;
+	padding: 10px;
+	margin: 20px;
+}
+
+a:hover {color: #532e40;
+}
+a:visited {
+  color: #c829c0;
+}
+
+.container-fluid {margin: 20px}
+.col-sm-1 {background-color: lightgrey}
+
 #demobox {
 	box-sizing: border-box;
 	background-color: #cfc ;
@@ -20,3 +43,15 @@ a:hoover {text-decoration-color: : green;}
 	border-radius: 20px ;
 	padding: 10px;
 } 
+
+@media (min-width: 500px) {
+	#mt::before {
+		content: "The Wheel of Time, a computer version"
+		}
+	}
+
+@media (max-width: 499px) {
+	#mt::before {
+		content: "The Wheel of Time, a mobile version"
+		}
+	}
